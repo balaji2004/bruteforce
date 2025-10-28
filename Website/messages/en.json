@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "prediction": "Prediction",
+    "register": "Register Node",
+    "contacts": "Contacts",
+    "alerts": "Alerts",
+    "graphs": "Data & Graphs",
+    "settings": "Settings",
+    "admin": "Analytical Panel",
+    "about": "About",
+    "logoText": "Cloudburst Detection"
+  },
+  "home": {
+    "title": "Cloudburst Detection System",
+    "subtitle": "Early Warning System for Flash Flood Prevention",
+    "description": "Real-time monitoring and AI-powered anomaly detection to protect communities from sudden cloudbursts in hilly regions. Our distributed sensor network provides hyperlocal rainfall and atmospheric data for timely alerts.",
+    "viewDashboard": "View Dashboard",
+    "learnMore": "Learn More",
+    "liveStats": "Live System Statistics",
+    "viewAnalytical": "View Analytical Dashboard",
+    "totalNodes": "Total Nodes",
+    "totalNodesDesc": "Sensor nodes deployed",
+    "activeSensors": "Active Sensors",
+    "activeSensorsDesc": "Currently online",
+    "dataPoints": "Data Points",
+    "dataPointsDesc": "Collected readings",
+    "activeAlerts": "Active Alerts",
+    "activeAlertsDesc": "Unacknowledged",
+    "systemOnline": "System Online",
+    "lastUpdate": "Last update",
+    "recentAlerts": "Recent Alerts",
+    "viewAllAlerts": "View all alerts"
+  },
+  "dashboard": {
+    "title": "Real-Time Dashboard",
+    "subtitle": "Monitor sensor nodes and environmental data",
+    "liveData": "Live Data Stream",
+    "sensorNetwork": "Sensor Network Map",
+    "viewDetails": "View Details"
+  },
+  "prediction": {
+    "title": "Cloudburst Prediction",
+    "subtitle": "AI-powered anomaly detection and forecasting",
+    "analyze": "Analyze Data",
+    "results": "Prediction Results"
+  },
+  "register": {
+    "title": "Register New Node",
+    "subtitle": "Add a new sensor node to the network",
+    "nodeId": "Node ID",
+    "location": "Location",
+    "submit": "Register Node"
+  },
+  "contacts": {
+    "title": "Emergency Contacts",
+    "subtitle": "Important contact information for emergency response",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "alerts": {
+    "title": "Alert Management",
+    "subtitle": "View and manage system alerts",
+    "acknowledge": "Acknowledge",
+    "severity": "Severity",
+    "timestamp": "Timestamp"
+  },
+  "graphs": {
+    "title": "Data Analytics & Graphs",
+    "subtitle": "Visualize sensor data and trends",
+    "rainfall": "Rainfall",
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "pressure": "Pressure"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Configure system preferences",
+    "language": "Language",
+    "theme": "Theme",
+    "notifications": "Notifications",
+    "save": "Save Changes"
+  },
+  "admin": {
+    "title": "Analytical Panel",
+    "subtitle": "System analytics and administration",
+    "statistics": "Statistics",
+    "reports": "Reports"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Learn more about the Cloudburst Detection System",
+    "mission": "Our Mission",
+    "technology": "Technology",
+    "team": "Team"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "refresh": "Refresh",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode"
+  }
+}

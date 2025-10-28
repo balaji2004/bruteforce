@@ -1,0 +1,225 @@
+{
+  "system": {
+    "status": "online"
+  },
+  "nodes": {
+    "gateway": {
+      "metadata": {
+        "nodeId": "gateway",
+        "type": "gateway",
+        "name": "Main Gateway",
+        "latitude": 28.6150,
+        "longitude": 77.2100,
+        "altitude": 920.0,
+        "installedBy": "Team Alpha",
+        "description": "Central hub with satellite uplink",
+        "nearbyNodes": ["node1", "node2", "node4"],
+        "status": "active"
+      },
+      "realtime": {
+        "temperature": 26.2,
+        "pressure": 915.3,
+        "altitude": 920.0,
+        "humidity": 65.0,
+        "status": "online",
+        "lastUpdate": "1736934620"
+      },
+      "history": {
+        "-NXabc123xyz": {
+          "temperature": 26.2,
+          "pressure": 915.3,
+          "altitude": 920.0,
+          "humidity": 65.0,
+          "timestamp": "1736934620"
+        },
+        "-NXabc124abc": {
+          "temperature": 26.5,
+          "pressure": 915.1,
+          "altitude": 920.1,
+          "humidity": 64.8,
+          "timestamp": "1736934650"
+        }
+      }
+    },
+    "node1": {
+      "metadata": {
+        "nodeId": "node1",
+        "type": "node",
+        "name": "Valley Sensor",
+        "latitude": 28.6139,
+        "longitude": 77.2090,
+        "altitude": 878.9,
+        "installedBy": "Team Alpha",
+        "description": "Near river crossing in mountain valley",
+        "nearbyNodes": ["node2", "gateway"],
+        "status": "active"
+      },
+      "realtime": {
+        "temperature": 25.7,
+        "pressure": 912.0,
+        "altitude": 878.9,
+        "humidity": 68.5,
+        "rssi": -52,
+        "status": "online",
+        "lastUpdate": "1736934615"
+      },
+      "history": {
+        "-NXdef456ghi": {
+          "temperature": 25.7,
+          "pressure": 912.0,
+          "altitude": 878.9,
+          "rainfall": 0.0,
+          "rssi": -52,
+          "timestamp": "1736934615"
+        },
+        "-NXdef457jkl": {
+          "temperature": 25.9,
+          "pressure": 912.2,
+          "altitude": 878.8,
+          "rainfall": 0.2,
+          "rssi": -53,
+          "timestamp": "1736934645"
+        }
+      }
+    },
+    "node2": {
+      "metadata": {
+        "nodeId": "node2",
+        "type": "node",
+        "name": "Ridge Monitor",
+        "latitude": 28.6180,
+        "longitude": 77.2120,
+        "altitude": 945.3,
+        "installedBy": "Team Beta",
+        "description": "Positioned on eastern ridge for optimal coverage",
+        "nearbyNodes": ["node1", "gateway"],
+        "status": "active"
+      },
+      "realtime": {
+        "temperature": 24.1,
+        "pressure": 908.5,
+        "altitude": 945.3,
+        "humidity": 72.3,
+        "rssi": -58,
+        "status": "online",
+        "lastUpdate": "1736934612"
+      },
+      "history": {
+        "-NXghi789mno": {
+          "temperature": 24.1,
+          "pressure": 908.5,
+          "altitude": 945.3,
+          "rainfall": 0.0,
+          "rssi": -58,
+          "timestamp": "1736934612"
+        },
+        "-NXghi790pqr": {
+          "temperature": 24.3,
+          "pressure": 908.7,
+          "altitude": 945.2,
+          "rainfall": 0.1,
+          "rssi": -57,
+          "timestamp": "1736934642"
+        }
+      }
+    },
+    "node3": {
+      "metadata": {
+        "nodeId": "node3",
+        "type": "node",
+        "name": "Upstream Detector",
+        "latitude": 28.6100,
+        "longitude": 77.2050,
+        "altitude": 856.2,
+        "installedBy": "Team Alpha",
+        "description": "Upstream location for early warning",
+        "nearbyNodes": ["node1"],
+        "status": "active"
+      },
+      "realtime": {
+        "temperature": 26.3,
+        "pressure": 914.8,
+        "altitude": 856.2,
+        "rssi": -65,
+        "status": "online",
+        "lastUpdate": "1736934610"
+      },
+      "history": {
+        "-NXjkl123stu": {
+          "temperature": 26.3,
+          "pressure": 914.8,
+          "altitude": 856.2,
+          "rainfall": 0.0,
+          "rssi": -65,
+          "timestamp": "1736934610"
+        }
+      }
+    },
+    "node4": {
+      "metadata": {
+        "nodeId": "node4",
+        "type": "node",
+        "name": "South Valley Sensor",
+        "latitude": 28.6080,
+        "longitude": 77.2130,
+        "altitude": 862.7,
+        "installedBy": "Team Beta",
+        "description": "Southern valley monitoring point",
+        "nearbyNodes": ["gateway", "node3"],
+        "status": "active"
+      },
+      "realtime": {
+        "temperature": 23.8,
+        "pressure": 913.2,
+        "altitude": 862.7,
+        "humidity": 75.1,
+        "rssi": -70,
+        "status": "offline",
+        "lastUpdate": "1736933915"
+      },
+      "history": {
+        "-NXmno456vwx": {
+          "temperature": 23.8,
+          "pressure": 913.2,
+          "altitude": 862.7,
+          "rainfall": 0.0,
+          "rssi": -70,
+          "timestamp": "1736933915"
+        }
+      }
+    },
+    "node5_warning": {
+      "metadata": {
+        "nodeId": "node5_warning",
+        "type": "node",
+        "name": "Critical Zone Sensor",
+        "latitude": 28.6220,
+        "longitude": 77.2160,
+        "altitude": 895.4,
+        "installedBy": "Team Alpha",
+        "description": "High-risk zone with rapid pressure changes",
+        "nearbyNodes": ["gateway"],
+        "status": "active"
+      },
+      "realtime": {
+        "temperature": 22.5,
+        "pressure": 895.2,
+        "altitude": 895.4,
+        "humidity": 85.7,
+        "rssi": -48,
+        "status": "online",
+        "lastUpdate": "1736934618"
+      },
+      "history": {
+        "-NXpqr789yza": {
+          "temperature": 22.5,
+          "pressure": 895.2,
+          "altitude": 895.4,
+          "rainfall": 2.5,
+          "rssi": -48,
+          "timestamp": "1736934618"
+        }
+      }
+    }
+  }
+}
