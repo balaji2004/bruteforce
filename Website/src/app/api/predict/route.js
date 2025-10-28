@@ -48,7 +48,7 @@ export async function GET() {
     return NextResponse.json({
       success: true,
       predictions,
-      date: '2025-10-05', // Tomorrow's date as requested
+      date: '2025-10-29', // Tomorrow's date as requested
       message: 'Predictions generated successfully'
     });
     

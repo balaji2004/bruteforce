@@ -276,7 +276,7 @@ export default function Prediction() {
               <p className="text-sm text-gray-600 dark:text-gray-400">
                 These predictions are generated using an XGBoost machine learning model trained on historical weather data
                 for Jaynagar region. The model analyzes patterns in temperature, rainfall, humidity, wind speed, and
-                atmospheric pressure to classify whether a cloudburst event is likely (YES/NO) for the next day (October 5th, 2025).
+                atmospheric pressure to classify whether a cloudburst event is likely (YES/NO) for the next day (October 29th, 2025).
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
                 <span className="font-medium">Note:</span> The classification is binary (YES or NO) based on the model&apos;s
