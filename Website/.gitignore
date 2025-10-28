@@ -52,7 +52,12 @@ venv/
 ENV/
 
 # ML models (if they're too large for git)
-# *.pkl
+*.pkl
+
+# Large data files
+*.csv
+cloudburst_xgb_model.pkl
+cloudburst_cleaned.csv
 
 # IDE
 .vscode/
